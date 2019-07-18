@@ -75,7 +75,7 @@ class Gateway extends AbstractGateway
     {
         return array(
             'account' => '',
-            'account_name' => '',
+            'accountName' => '',
             'passphrase' => '',
         );
     }
@@ -94,5 +94,5 @@ class Gateway extends AbstractGateway
     {
         return $this->createRequest('\Omnipay\Perfectmoney\Message\RefundRequest', $parameters);
     }
-    
+
 }
