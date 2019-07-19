@@ -24,7 +24,7 @@ class RefundRequest extends AbstractRequest
 
     public function sendData($data)
     {
-        $httpResponse = $this->httpClient->get($this->endpoint, null, ['query' => $data])->send();
+        $httpResponse = $this->httpClient->get($this->endpoint, null, ['query' => $data]);
 
         return $this->response = new RefundResponse($this, $httpResponse->getBody(true));
     }
