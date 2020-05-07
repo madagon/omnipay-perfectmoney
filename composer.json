@@ -1,5 +1,5 @@
 {
-    "name": "geekfil/omnipay-perfectmoney",
+    "name": "madagon/omnipay-perfectmoney",
     "type": "library",
     "description": "Perfect Money gateway for Omnipay payment processing library",
     "keywords": [
@@ -11,12 +11,11 @@
         "perfectmoney",
         "purchase"
     ],
-    "homepage": "http://sassoft.ru",
-    "license": "",
+    "license": "MIT",
     "authors": [
         {
-            "name": "Tamas Erdelyi",
-            "email": "terdelyi@gmail.com"
+            "name": "Mohsen Akhlaghi",
+            "email": "persisch@msn.com"
         }
     ],
     "autoload": {

@@ -16,7 +16,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "aleksandrzhiliaev/omnipay-perfectmoney": "*"
+        "madagon/omnipay-perfectmoney": "*"
     }
 }
 ```
